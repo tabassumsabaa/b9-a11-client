@@ -1,7 +1,7 @@
-import bone from "../../../../assets/image/b4.jpg";
-import btwo from "../../../../assets/image/b3.jpg";
-import bthree from "../../../../assets/image/b2.jpg";
-import bfour from "../../../../assets/image/fh.jpg";
+import bone from "../../../../assets/image/banner/b4.jpg";
+import btwo from "../../../../assets/image/banner/b3.jpg";
+import bthree from "../../../../assets/image/banner/b2.jpg";
+import bfour from "../../../../assets/image/banner/fh.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 
@@ -22,8 +22,8 @@ const Banner = () => {
                 <br/>
                 easy and convenient.</p>
                 <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 btn- sm:btn-sm md:btn-md ">Responsive</button>
-                   <button className="btn btn-outline text-white sm:btn-sm md:btn-md ">Responsive</button>
+                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
+                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
                </div>
             </div>                     
           </div>
@@ -45,8 +45,8 @@ const Banner = () => {
                 <br/>
                 easy and convenient.</p>
                 <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 btn- sm:btn-sm md:btn-md ">Responsive</button>
-                   <button className="btn btn-outline text-white sm:btn-sm md:btn-md ">Responsive</button>
+                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
+                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
                </div>
             </div>                     
           </div>
@@ -68,8 +68,8 @@ const Banner = () => {
                 <br/>
                 easy and convenient.</p>
                 <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 btn- sm:btn-sm md:btn-md ">Responsive</button>
-                   <button className="btn btn-outline text-white sm:btn-sm md:btn-md ">Responsive</button>
+                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
+                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
                </div>
             </div>                     
           </div>
@@ -91,8 +91,8 @@ const Banner = () => {
                 <br/>
                 easy and convenient.</p>
                 <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 btn- sm:btn-sm md:btn-md ">Responsive</button>
-                   <button className="btn btn-outline text-white sm:btn-sm md:btn-md ">Responsive</button>
+                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
+                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
                </div>
             </div>                     
           </div>
