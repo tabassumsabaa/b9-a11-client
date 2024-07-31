@@ -3,9 +3,9 @@ import logo from "../../../assets/image/logo.jpg";
 
 const Navber = () => {
     const navItem = <>
-       <li><Link>Home</Link></li>  
-       <li><Link>Services</Link> </li> 
-        <li><a>Log-In</a></li>  
+       <li><Link to="/">Home</Link></li>  
+       <li><Link to="/">Services</Link> </li> 
+        <li><Link to="login">Log-In</Link></li>  
       </>
     return (
         <div className="navbar bg-base-100 h-20 mb-4">

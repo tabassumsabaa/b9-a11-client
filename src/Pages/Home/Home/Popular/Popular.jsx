@@ -11,7 +11,7 @@ const Popular = () => {
     return (
         <div className="my-10">
         <div className="text-center">
-           <h1 className="text-3xl font-bold mb-5 bg-gradient-to-r from-[#595d67] to-[rgba(21, 21, 21, 0)] my-5 p-5 rounded-2xl">Our Popular services</h1>
+           <h1 className="text-3xl font-bold mb-5 bg-gradient-to-r from-[#595d67] to-[rgba(21, 21, 21, 0)] my-5 p-5 rounded-2xl"> Explore Our services</h1>
            <hr />
         </div>
         <div className="hero rounded-xl mb-5 py-0 lg:mb-32">
