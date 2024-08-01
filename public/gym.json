@@ -1,0 +1,51 @@
+[
+    {
+      "service_id": "1",
+      "service_image": "https://i.imgur.com/Hog3uvC.jpeg",
+      "service_name": "Strength Training",
+      "service_description": "Build muscle and increase strength.",
+      "long_description": "Our Strength Training program is designed to help you build muscle and increase strength. With guided workouts and personal trainers, you’ll achieve your fitness goals effectively.",
+      "price": "$80"
+    },
+    {
+      "service_id": "2",
+      "service_image": "https://i.imgur.com/bZmvmPC.jpeg",
+      "service_name": "Cardio Workout",
+      "service_description": "Enhance cardiovascular health.",
+      "long_description": "Join our Cardio Workout sessions to enhance your cardiovascular health. This program includes various cardio exercises such as running, cycling, and high-intensity interval training.",
+      "price": "$60"
+    },
+    {
+      "service_id": "3",
+      "service_image": "https://i.imgur.com/Ai9bADz.jpeg",
+      "service_name": "HIIT Training",
+      "service_description": "High-intensity interval training.",
+      "long_description": "Our HIIT Training program combines high-intensity exercises with short rest periods to maximize calorie burn and improve overall fitness. Perfect for those looking for an intense workout.",
+      "price": "$75"
+    },
+    {
+      "service_id": "4",
+      "service_image": "https://i.imgur.com/PfB8GHL.jpeg",
+      "service_name": "Yoga Class",
+      "service_description": "Improve flexibility and reduce stress.",
+      "long_description": "Our Yoga Class offers a relaxing environment where you can improve flexibility, reduce stress, and enhance mental clarity. Suitable for all levels, with personalized guidance from certified instructors.",
+      "price": "$50"
+    },
+    {
+      "service_id": "5",
+      "service_image": "https://i.imgur.com/3nH0xb6.jpeg",
+      "service_name": "Pilates Session",
+      "service_description": "Core strengthening and flexibility.",
+      "long_description": "The Pilates Session focuses on core strengthening and flexibility through controlled movements. Ideal for enhancing posture, balance, and core strength while promoting overall body conditioning.",
+      "price": "$65"
+    },
+    {
+      "service_id": "6",
+      "service_image": "https://i.imgur.com/3vftSiP.jpeg",
+      "service_name": "Zumba Fitness",
+      "service_description": "Dance-based cardio workout.",
+      "long_description": "Zumba Fitness combines dance and aerobics for a fun, high-energy cardio workout. Suitable for all fitness levels, it’s a great way to stay fit while enjoying upbeat music and lively choreography.",
+      "price": "$55"
+    }
+  ]
+  

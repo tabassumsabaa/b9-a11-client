@@ -4,7 +4,7 @@ import logo from "../../../assets/image/logo.jpg";
 const Navber = () => {
     const navItem = <>
        <li><Link to="/">Home</Link></li>  
-       <li><Link to="/">Services</Link> </li> 
+       <li><Link to="services">Services</Link> </li> 
         <li><Link to="login">Log-In</Link></li>  
       </>
     return (

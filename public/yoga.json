@@ -1,0 +1,51 @@
+[
+    {
+      "provide_id": "1",
+      "provide_image": "https://i.imgur.com/ZXoOj0b.jpeg",
+      "provide_name": "Hatha Yoga",
+      "provide_description": "Traditional yoga focusing on postures.",
+      "long_description": "Hatha Yoga is a branch of yoga that emphasizes physical postures and alignment. It is suitable for all levels and focuses on slow-paced stretching, simple breathing exercises, and meditation.",
+      "price": "$40"
+    },
+    {
+      "provide_id": "2",
+      "provide_image": "https://i.imgur.com/WAzobGY.jpeg",
+      "provide_name": "Vinyasa Yoga",
+      "provide_description": "Flow yoga with coordinated movements.",
+      "long_description": "Vinyasa Yoga involves synchronizing breath with a continuous flow of postures. This dynamic practice builds strength, flexibility, and mindfulness, providing a full-body workout and mental relaxation.",
+      "price": "$45"
+    },
+    {
+      "provide_id": "3",
+      "provide_image": "https://i.imgur.com/GzrfRz5.jpeg",
+      "provide_name": "Ashtanga Yoga",
+      "provide_description": "Rigorous and structured yoga practice.",
+      "long_description": "Ashtanga Yoga is a rigorous style of yoga that follows a specific sequence of postures and is linked by breath. It is designed to detoxify the body, build strength, and increase stamina.",
+      "price": "$50"
+    },
+    {
+      "provide_id": "4",
+      "provide_image": "https://i.imgur.com/v5YHbmN.jpeg",
+      "provide_name": "Yin Yoga",
+      "provide_description": "Slow-paced yoga with deep stretches.",
+      "long_description": "Yin Yoga targets deep connective tissues and fascia, aiming to increase circulation in the joints and improve flexibility. Poses are held for longer periods, fostering a meditative state.",
+      "price": "$35"
+    },
+    {
+      "provide_id": "5",
+      "provide_image": "https://i.imgur.com/d4xX1jy.jpeg",
+      "provide_name": "Bikram Yoga",
+      "provide_description": "Hot yoga with a set sequence.",
+      "long_description": "Bikram Yoga consists of a set sequence of 26 postures and two breathing exercises practiced in a heated room. The heat helps to loosen muscles, enhance flexibility, and promote detoxification.",
+      "price": "$55"
+    },
+    {
+      "provide_id": "6",
+      "provide_image": "https://i.imgur.com/FEa0onr.jpeg",
+      "provide_name": "Restorative Yoga",
+      "provide_description": "Relaxing yoga with supportive props.",
+      "long_description": "Restorative Yoga uses props to support the body in restful postures. It focuses on deep relaxation and stress relief, making it ideal for recovery and mental clarity.",
+      "price": "$30"
+    }
+  ]
+  

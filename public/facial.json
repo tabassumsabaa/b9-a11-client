@@ -1,0 +1,45 @@
+[
+    {
+      "servicef_id": "1",
+      "service_image": "https://i.imgur.com/UXwkJ06.jpeg",
+      "service_name": "Deep Cleanse Facial",
+      "service_description": "A thorough cleanse to remove impurities and dead skin cells.",
+      "price": "$50"
+    },
+    {
+      "servicef_id": "2",
+      "service_image": "https://i.imgur.com/bC61wm3.jpeg",
+      "service_name": "Hydrating Facial",
+      "service_description": "Intense hydration for dry and dehydrated skin.",
+      "price": "$60"
+    },
+    {
+      "servicef_id": "3",
+      "service_image": "https://i.imgur.com/n4utDTN.jpeg",
+      "service_name": "Anti-Aging Facial",
+      "service_description": "Targets fine lines and wrinkles for a youthful glow.",
+      "price": "$70"
+    },
+    {
+      "servicef_id": "4",
+      "service_image": "https://i.imgur.com/1jZUC5u.jpeg",
+      "service_name": "Brightening Facial",
+      "service_description": "Improves skin tone and reduces dark spots.",
+      "price": "$65"
+    },
+    {
+      "servicef_id": "5",
+      "service_image": "https://i.imgur.com/mD0vnyY.jpeg",
+      "service_name": "Calming Facial",
+      "service_description": "Soothes sensitive skin and reduces redness.",
+      "price": "$55"
+    },
+    {
+      "servicef_id": "6",
+      "service_image": "https://i.imgur.com/hMt9pMk.jpeg",
+      "service_name": "Firming Facial",
+      "service_description": "Enhances skin elasticity and firmness.",
+      "price": "$75"
+    }
+  ]
+  
