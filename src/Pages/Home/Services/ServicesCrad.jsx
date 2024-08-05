@@ -1,7 +1,8 @@
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const ServicesCrad = ({service}) => {        
-    const {title, img, price, description } = service;
+    const {_id,title, img, price, description } = service;
 
     return (
         <div className="card bg-base-100 w-96 shadow-xl mb-10">
@@ -13,7 +14,9 @@ const ServicesCrad = ({service}) => {
     <p>"{description}"</p>
     <p className="text-red-600 font-bold">Price: ${price}</p>
     <div className="card-actions">
-      <button className="btn btn-active bg-gradient-to-r from-[#a8aaae] to-[rgba(21, 21, 21, 0)] rounded-full sm:btn-sm md:btn-md">View Details<FaArrowRightLong></FaArrowRightLong></button>
+      <Link to={`/booking/hairservices/${_id}`}>
+        <button className="btn btn-active bg-gradient-to-r from-[#a8aaae] to-[rgba(21, 21, 21, 0)] rounded-full sm:btn-sm md:btn-md">View Details<FaArrowRightLong></FaArrowRightLong></button>
+      </Link>
     </div>
   </div>
 </div>

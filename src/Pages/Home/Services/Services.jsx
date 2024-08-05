@@ -14,25 +14,25 @@ const Services = () => {
 
 
     useEffect(()=>{
-        fetch('services.json')
+        fetch('http://localhost:5000/hairservices')
         .then(res =>res.json())
         .then(data => setServices(data))
     },[]);
 
     useEffect(()=>{
-        fetch('facial.json')
+        fetch('http://localhost:5000/facialservices')
         .then(res =>res.json())
         .then(data => setFacials(data))
     },[]);
 
     useEffect(()=>{
-        fetch('gym.json')
+        fetch('http://localhost:5000/gymservices')
         .then(res =>res.json())
         .then(data => setgyms(data))
     },[]);
 
     useEffect(()=>{
-        fetch('yoga.json')
+        fetch('http://localhost:5000/yogaServices')
         .then(res =>res.json())
         .then(data => setYogas(data))
     },[]);
@@ -66,7 +66,7 @@ const Services = () => {
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {
                 facials.map(facial => <FacetreatCard
-                   key={facial.service_id}
+                   key={facial.servicef_id}
                    facial={facial}
                    ></FacetreatCard>)
               }
