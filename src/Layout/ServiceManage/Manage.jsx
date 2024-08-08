@@ -61,7 +61,7 @@ const Manage = ({booking}) => {
         <td>{date}</td>
         <td>{Price}</td>
         <th>
-            <Link>
+            <Link to={`/book/manage/update/${_id}`}>
               <button className="btn btn-ghost btn-xs">Update</button>
             </Link>        
         </th>

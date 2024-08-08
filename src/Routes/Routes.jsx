@@ -9,6 +9,8 @@ import { serviceLoader } from "../Pages/Home/Services/ServicesLoader";
 import Bookings from "../Layout/Bookings/Bookings";
 import PrivateRoute from "./PrivateRoute";
 import ServiceManage from "../Layout/ServiceManage/ServiceManage";
+import UpdateBooking from "../Layout/UpdateBooking/UpdateBooking";
+import ServiceTodo from "../Layout/ServiceTodo/ServiceTodo";
 
 
 // const serviceLoader = async ({ params }) => {
@@ -53,7 +55,18 @@ const router = createBrowserRouter([
         {
           path: '/book/manage',
           element: <PrivateRoute><ServiceManage></ServiceManage></PrivateRoute>
+        },
+        {
+          path: '/book/manage/update/:id',
+          element: <PrivateRoute><UpdateBooking></UpdateBooking></PrivateRoute> ,
+          loader: ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
+        },
+        {
+          path: "/book/todo/:id",
+          element: <PrivateRoute><ServiceTodo></ServiceTodo></PrivateRoute>,
+          //loader: ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)          
         }
+    
       ]
     },
   ]);

@@ -16,7 +16,17 @@ const Navber = () => {
        <li><Link to="/">Home</Link></li>  
        <li><Link to="services">Services</Link> </li> 
        {user?.email ? <>
-        <li><Link to="book">Deshboad</Link> </li>
+
+        <li className="dropdown">
+          <Link tabIndex={0} role="button">Dashboard</Link>
+            <ul tabIndex={0} className="menu dropdown-content sm:mt-5 bg-base-100 rounded-box z-[1] lg:mt-4 w-52 p-2 shadow" >
+                  <li><Link to="services">Add Service</Link></li>
+                  <li><Link to="/book/manage">Manage Service</Link></li>
+                  <li><Link to="book">Booked Services</Link></li>
+                  <li><Link to="/book/todo/:id">Service To-Do</Link></li>
+            </ul>
+        </li>
+        
         <li><button onClick={handleLogOut}>Log-Out</button></li>
         </>
        : <li><Link to="login">Log-In</Link></li> }

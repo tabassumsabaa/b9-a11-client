@@ -3,11 +3,11 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import Manage from "./Manage";
 import { RiDeleteBin2Line  } from "react-icons/ri";
 import { LuFolderEdit } from "react-icons/lu";
-;
+import Swal from "sweetalert2";
 
 const ServiceManage = () => {
     
-    const {user} = useContext(AuthContext);
+    const {user, _id} = useContext(AuthContext);
     const [bookings, setBookings] = useState([]);
 
    const url = `http://localhost:5000/bookings?email=${user?.email}`;
@@ -17,6 +17,37 @@ const ServiceManage = () => {
           .then(res => res.json())
           .then(data =>setBookings(data))
     }, []);
+
+    const handleDelete = id => {      
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+          }).then((result) => {
+            if (result.isConfirmed) {
+              fetch(`http://localhost:5000/bookings/${_id}`, {
+                method: 'DELETE'
+              })
+              .then(res => res.json())
+              .then(data => {
+                console.log(data);
+                if (data.deletedCount > 0) {
+                    Swal.fire({
+                        title: "Deleted!",
+                        text: "Your file has been deleted.",
+                        icon: "success"
+                      }); 
+                      const remaining = bookings.filter(booking => booking._id !== id);
+                      setBookings(remaining);             
+                }
+              })            
+            }
+          });            
+    } 
 
     return (    
         <div className="my-5">
@@ -40,7 +71,8 @@ const ServiceManage = () => {
       {
         bookings.map(booking => <Manage
           key={booking._id}
-          booking={booking}          
+          booking={booking}
+          handleDelete={handleDelete}
         ></Manage>)
       }      
      
