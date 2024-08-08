@@ -21,8 +21,8 @@ const Navber = () => {
           <Link tabIndex={0} role="button">Dashboard</Link>
             <ul tabIndex={0} className="menu dropdown-content sm:mt-5 bg-base-100 rounded-box z-[1] lg:mt-4 w-52 p-2 shadow" >
                   <li><Link to="services">Add Service</Link></li>
-                  <li><Link to="/book/manage">Manage Service</Link></li>
                   <li><Link to="book">Booked Services</Link></li>
+                  <li><Link to="/book/manage">Manage Service</Link></li>                  
                   <li><Link to="/book/todo/:id">Service To-Do</Link></li>
             </ul>
         </li>
