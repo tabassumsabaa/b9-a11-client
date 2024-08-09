@@ -24,9 +24,9 @@ const LogIn = () => {
         signIn(email, password)
           .then(result => {
               const loggedInUser = result.user;
-              console.log(loggedInUser);
+              //console.log(loggedInUser);
               const user = {email};              
-              axios.post('http://localhost:5000/jwt', user, {withCredentials: true})
+              axios.post('https://sabfitzone-server.vercel.app/jwt', user, {withCredentials: true})
               .then(res => {
                 console.log(res.data);
                 if (res.data.success) {
@@ -41,7 +41,7 @@ const LogIn = () => {
           useEffect(() => {
             if (User) {
               // Redirect or perform other actions upon successful login
-              console.log("User logged in:", User);
+              // console.log("User logged in:", User);
             }
           }, [User]);
 

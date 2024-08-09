@@ -16,12 +16,12 @@ const SingUp = () => {
         const email = form.email.value;
         const photo = form.photo.value;
         const password = form.password.value;
-        console.log(name, email, photo,password);
+        //console.log(name, email, photo,password);
 
         createUser(email, password)
            .then(result => {
               const user = result.user;
-              console.log(user);
+             // console.log(user);
            })
            .catch(error => {
               console.log(error);
@@ -30,7 +30,7 @@ const SingUp = () => {
            useEffect(() => {
             if (User) {
               // Redirect or perform other actions upon successful login
-              console.log("User logged in:", User);
+              //console.log("User logged in:", User);
             }
           }, [User]);       
 

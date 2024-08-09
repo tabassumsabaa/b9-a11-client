@@ -14,25 +14,25 @@ const Services = () => {
 
 
     useEffect(()=>{
-        fetch('http://localhost:5000/hairservices')
+        fetch('https://sabfitzone-server.vercel.app/hairservices')
         .then(res =>res.json())
         .then(data => setServices(data))
     },[]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/facialservices')
+        fetch('https://sabfitzone-server.vercel.app/facialservices')
         .then(res =>res.json())
         .then(data => setFacials(data))
     },[]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/gymservices')
+        fetch('https://sabfitzone-server.vercel.app/gymservices')
         .then(res =>res.json())
         .then(data => setgyms(data))
     },[]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/yogaServices')
+        fetch('https://sabfitzone-server.vercel.app/yogaServices')
         .then(res =>res.json())
         .then(data => setYogas(data))
     },[]);

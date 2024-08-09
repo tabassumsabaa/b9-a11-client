@@ -20,7 +20,7 @@ const UpdateBooking = () => {
         }
         console.log(updated);
 
-        fetch(`http://localhost:5000/bookings/${_id}`, {
+        fetch(`https://sabfitzone-server.vercel.app/bookings/${_id}`, {
             method: "PUT",
             headers: {
                 'content-type': 'application/json'

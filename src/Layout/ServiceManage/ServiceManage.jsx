@@ -10,7 +10,7 @@ const ServiceManage = () => {
     const {user, _id} = useContext(AuthContext);
     const [bookings, setBookings] = useState([]);
 
-   const url = `http://localhost:5000/bookings?email=${user?.email}`;
+   const url = `https://sabfitzone-server.vercel.app/bookings?email=${user?.email}`;
 
     useEffect(() => {
         fetch(url, {credentials: 'include'})
@@ -29,12 +29,12 @@ const ServiceManage = () => {
             confirmButtonText: "Yes, delete it!"
           }).then((result) => {
             if (result.isConfirmed) {
-              fetch(`http://localhost:5000/bookings/${_id}`, {
+              fetch(`https://sabfitzone-server.vercel.app/bookings/${_id}`, {
                 method: 'DELETE'
               })
               .then(res => res.json())
               .then(data => {
-                console.log(data);
+                //console.log(data);
                 if (data.deletedCount > 0) {
                     Swal.fire({
                         title: "Deleted!",

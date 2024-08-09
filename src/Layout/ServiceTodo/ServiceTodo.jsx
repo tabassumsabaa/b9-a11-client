@@ -10,7 +10,7 @@ const ServiceTodo = () => {
     // const {title} = booking;
     //const {} = useLoaderData();
 
-    const url = `http://localhost:5000/bookings?email=${user?.email}`;
+    const url = `https://sabfitzone-server.vercel.app/bookings?email=${user?.email}`;
     useEffect(() => {
         fetch(url, {credentials: 'include'})
         .then(res => res.json())
@@ -18,7 +18,7 @@ const ServiceTodo = () => {
     }, [url]);
 
     const handleConfirm = id => {
-        fetch(`http://localhost:5000/bookings/${id}`,{
+        fetch(`https://sabfitzone-server.vercel.app/bookings/${id}`,{
             method: 'PATCH',
             headers:{
                 'content-type': 'application/json'

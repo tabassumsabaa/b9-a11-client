@@ -14,7 +14,7 @@ import ServiceTodo from "../Layout/ServiceTodo/ServiceTodo";
 
 
 // const serviceLoader = async ({ params }) => {
-//   const response = await fetch(`http://localhost:5000/${params.category}/${params.id}`);
+//   const response = await fetch(`https://sabfitzone-server.vercel.app/${params.category}/${params.id}`);
 //   if (!response.ok) {
 //     throw new Response('Not Found', { status: 404 });
 //   }
@@ -59,7 +59,7 @@ const router = createBrowserRouter([
         {
           path: '/book/manage/update/:id',
           element: <PrivateRoute><UpdateBooking></UpdateBooking></PrivateRoute> ,
-          loader: ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
+          loader: ({params}) => fetch(`https://sabfitzone-server.vercel.app/bookings/${params.id}`)
         },
         {
           path: "/book/todo/:id",

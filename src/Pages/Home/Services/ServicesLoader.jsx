@@ -4,16 +4,16 @@ export const serviceLoader = async ({ params }) => {
   
     switch (category) {
       case 'hairservices':
-        apiUrl = `http://localhost:5000/hairservices/${id}`;
+        apiUrl = `https://sabfitzone-server.vercel.app/hairservices/${id}`;
         break;
       case 'facialservices':
-        apiUrl = `http://localhost:5000/facialservices/${id}`;
+        apiUrl = `https://sabfitzone-server.vercel.app/facialservices/${id}`;
         break;
       case 'yogaServices':
-        apiUrl = `http://localhost:5000/yogaServices/${id}`;
+        apiUrl = `https://sabfitzone-server.vercel.app/yogaServices/${id}`;
         break;  
       case 'gymservices':
-        apiUrl = `http://localhost:5000/gymservices/${id}`;
+        apiUrl = `https://sabfitzone-server.vercel.app/gymservices/${id}`;
         break;
       default:
         throw new Error('Invalid category');

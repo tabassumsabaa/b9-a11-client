@@ -32,17 +32,17 @@ const AuthProvider = ({children}) => {
             const userEmail = currentUser?.email || user?.email;
             const looggedUser = { email: userEmail};
             setUser(currentUser);
-            console.log('current User', currentUser);
+            //console.log('current User', currentUser);
             setLoading(false);
             // if user exist then token
             if(currentUser){                
-                axios.post('http://localhost:5000/jwt', looggedUser, {withCredentials: true})
+                axios.post('https://sabfitzone-server.vercel.app/jwt', looggedUser, {withCredentials: true})
                 .then(res => {
-                    console.log('token response', res.data);
+                    //console.log('token response', res.data);
                 })
             }
             else{
-                axios.post('http://localhost:5000/logout', looggedUser, {withCredentials: true})
+                axios.post('https://sabfitzone-server.vercel.app/logout', looggedUser, {withCredentials: true})
                 .then(res => {console.log(res.data)});
             }
         });
