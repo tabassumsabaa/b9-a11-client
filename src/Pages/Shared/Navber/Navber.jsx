@@ -22,7 +22,7 @@ const Navber = () => {
             <ul tabIndex={0} className="menu dropdown-content sm:mt-5 bg-base-100 rounded-box z-[1] lg:mt-4 w-52 p-2 shadow" >
                   <li><Link to="services">Add Service</Link></li>
                   <li><Link to="book">Booked Services</Link></li>
-                  <li><Link to="/book/manage">Manage Service</Link></li>                  
+                  <li><Link to="/book/manage">Manage Service</Link></li>                 
                   <li><Link to="/book/todo/:id">Service To-Do</Link></li>
             </ul>
         </li>
@@ -69,7 +69,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">      
-       <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" className="w-8 h-8 rounded-full ml-2" />     
+       <img src={logo} className="w-8 h-8 rounded-full ml-2" />     
   </div>
 </div>
 
