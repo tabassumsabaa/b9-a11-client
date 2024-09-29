@@ -1,4 +1,4 @@
-# CivicSurvey - Server
+# CivicSurvey - Client
 
 This repository contains the backend code for **CivicSurvey**, providing APIs for managing users, surveys, responses, and more.
 
