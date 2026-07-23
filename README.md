@@ -1,13 +1,7 @@
-# CivicSurvey - Client
-
-This repository contains the backend code for **CivicSurvey**, providing APIs for managing users, surveys, responses, and more.
-
-### Admin Access
-- **Username**: `admin@role.com`
-- **Password**: `1234567`
+# Sabfitzone`
 
 ### Live Site URL
-- [CivicSurvey Live Site](https://b9a12-server-side-three.vercel.app)
+  -https://b9a11-client-side-54051.web.app/
 
 ## Features
 - **REST API for Survey Management**: Comprehensive endpoints for creating, updating, deleting, and fetching surveys.
