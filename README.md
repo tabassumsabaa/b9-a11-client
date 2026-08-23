@@ -1,24 +1,86 @@
-# Sabfitzone`
+# 🌿 SabFitZone – Wellness Service Platform
 
-### Live Site URL
-  -https://b9a11-client-side-54051.web.app/
+SabFitZone is a responsive wellness service platform where users can explore beauty, fitness, yoga, facial, and hair-care services, then book the service they want.
 
-## Features
-- **REST API for Survey Management**: Comprehensive endpoints for creating, updating, deleting, and fetching surveys.
-- **User Management API**: Endpoints for managing user data, including role-based access controls.
-- **Authentication and Authorization**: Secure token-based authentication using JWT for different user roles.
-- **Feedback Management**: API endpoints for handling feedback from admins to surveyors.
-- **Response Analytics**: Server-side processing for generating data insights and analytics for charts and reports.
-- **Role-Based Access Control (RBAC)**: Fine-grained permissions for different roles (Admin, Surveyor, User, Pro-User).
-- **Database Integration**: MongoDB (or your chosen database) for data persistence and management.
-- **Error Handling and Validation**: Robust error handling, input validation, and sanitization for secure API operations.
-- **Logging and Monitoring**: Logging setup for monitoring, error tracking, and debugging.
-- **Environment Configuration**: Supports multiple environments (development, production) with `.env` configuration.
+🔗 **Live Website:** https://sabfitzone.web.app
+🔗 **Server API:** https://sabfitzone-server.vercel.app
 
-### Getting Started
+## ✨ Features
 
-Follow these steps to set up the project locally:
+* 🔐 Email/password and Google authentication with Firebase
+* 💇 Browse hair, facial, gym, and yoga services
+* 🔎 Search services by name
+* 📱 Responsive layout for mobile, tablet, and desktop
+* 📄 View service details
+* 📅 Book a selected service
+* 🗂️ View and manage bookings
+* ☁️ Service and booking data stored in MongoDB
+* 🔔 User-friendly success messages with SweetAlert2
 
-1. **Clone the Repository**:
-   ```bash
-   git clone (https://github.com/Porgramming-Hero-web-course/b9a11-server-side-tabassumsabaa.git)
+## 🛠️ Technologies Used
+
+* React
+* Vite
+* React Router DOM
+* Tailwind CSS
+* DaisyUI
+* Firebase Authentication
+* MongoDB
+* Express.js
+* Node.js
+* Vercel
+* Firebase Hosting
+
+## 🚀 Run the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tabassumsabaa/SabFitZone_Service_client.git
+```
+
+Move into the project folder:
+
+```bash
+cd SabFitZone_Service_client
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the project root and add your Firebase configuration:
+
+```env
+VITE_apiKey=your_firebase_api_key
+VITE_authDomain=your_project.firebaseapp.com
+VITE_projectId=your_project_id
+VITE_storageBucket=your_project.appspot.com
+VITE_messagingSenderId=your_messaging_sender_id
+VITE_appId=your_app_id
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 👩‍💻 Author
+
+**Tabassum Sabaa**
+
+* GitHub: https://github.com/tabassumsabaa
+
+---
+
+⭐ If you like this project, please give the repository a star!
+
