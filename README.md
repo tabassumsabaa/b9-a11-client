@@ -76,9 +76,10 @@ npm run build
 
 ## 👩‍💻 Author
 
-**Tabassum Sabaa**
+**Sabiha Tabassum Sabaa**
 
 * GitHub: https://github.com/tabassumsabaa
+* E-mail: sabihatabassum0511@gmail.com
 
 ---
 
