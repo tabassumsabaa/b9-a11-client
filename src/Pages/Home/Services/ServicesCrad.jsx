@@ -1,17 +1,17 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-const ServicesCrad = ({service}) => {        
+const ServicesCrad = ({service}) => {
     const {_id,title, img, price, description } = service;
 
     return (
-        <div className="card bg-base-100 w-96 shadow-xl mb-10">
+        <div className="card bg-base-100 w-full max-w-sm mx-auto shadow-xl mb-10">
   <figure className="px-10 pt-10">
     <img src={img} alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title">{title}</h2>
-    <p>"{description}"</p>
+    <p>{description}</p>
     <p className="text-red-600 font-bold">Price: ${price}</p>
     <div className="card-actions">
       <Link to={`/booking/hairservices/${_id}`}>

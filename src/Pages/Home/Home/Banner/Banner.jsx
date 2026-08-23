@@ -4,7 +4,7 @@ import bthree from "../../../../assets/image/banner/b2.jpg";
 import bfour from "../../../../assets/image/banner/fh.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -14,18 +14,27 @@ const Banner = () => {
           <div className="absolute left-0 right-5 top-0 bottom-0 flex items-center rounded-xl bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
             <div className=" text-white space-y-7 pl-20 ">
               <h1 className="text-4xl font-bold">Wellness, delivered</h1>
-                <p>FitZone connects you with top-rated independent massage, 
+                <p>FitZone connects you with top-rated independent massage,
                 <br/>
                 skincare, hair, and beauty service professionals near you.
                 <br />
                 Taking care of yourself has never been this
                 <br/>
                 easy and convenient.</p>
-                <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
-                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
+                <div className="flex flex-wrap gap-2 sm:gap-3">
+                     <Link to="/services">
+                        <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md">
+                          Book Now
+                        </button>
+                      </Link>
+
+                      <Link to="/singup">
+                        <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md">
+                          Membership
+                        </button>
+                      </Link>
                </div>
-            </div>                     
+            </div>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" className="btn btn-circle"><FaArrowLeft></FaArrowLeft></a>
@@ -37,18 +46,27 @@ const Banner = () => {
           <div className="absolute left-0 right-5 top-0 bottom-0  flex items-center rounded-xl bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
             <div className=" text-white space-y-7 pl-20 ">
               <h1 className="text-4xl font-bold">Wellness, delivered</h1>
-                <p>FitZone connects you with top-rated independent massage, 
+                <p>FitZone connects you with top-rated independent massage,
                 <br/>
                 skincare, hair, and beauty service professionals near you.
                 <br />
                 Taking care of yourself has never been this
                 <br/>
                 easy and convenient.</p>
-                <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
-                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
+                <div className="flex flex-wrap gap-2 sm:gap-3">
+                     <Link to="/services">
+                        <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md">
+                          Book Now
+                        </button>
+                      </Link>
+
+                      <Link to="/singup">
+                        <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md">
+                          Membership
+                        </button>
+                      </Link>
                </div>
-            </div>                     
+            </div>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide1" className="btn btn-circle"><FaArrowLeft></FaArrowLeft></a>
@@ -60,18 +78,27 @@ const Banner = () => {
           <div className="absolute left-0 right-5 top-0 bottom-0  flex items-center rounded-xl bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
             <div className=" text-white space-y-7 pl-20 ">
               <h1 className="text-4xl font-bold">Wellness, delivered</h1>
-                <p>FitZone connects you with top-rated independent massage, 
+                <p>FitZone connects you with top-rated independent massage,
                 <br/>
                 skincare, hair, and beauty service professionals near you.
                 <br />
                 Taking care of yourself has never been this
                 <br/>
                 easy and convenient.</p>
-                <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
-                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
+                <div className="flex flex-wrap gap-2 sm:gap-3">
+                     <Link to="/services">
+                        <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md">
+                          Book Now
+                        </button>
+                      </Link>
+
+                      <Link to="/singup">
+                        <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md">
+                          Membership
+                        </button>
+                      </Link>
                </div>
-            </div>                     
+            </div>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide2" className="btn btn-circle"><FaArrowLeft></FaArrowLeft></a>
@@ -83,18 +110,27 @@ const Banner = () => {
           <div className="absolute left-0 right-5 top-0 bottom-0  flex items-center rounded-xl bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
             <div className=" text-white space-y-7 pl-20 ">
               <h1 className="text-4xl font-bold">Wellness, delivered</h1>
-                <p>FitZone connects you with top-rated independent massage, 
+                <p>FitZone connects you with top-rated independent massage,
                 <br/>
                 skincare, hair, and beauty service professionals near you.
                 <br />
                 Taking care of yourself has never been this
                 <br/>
                 easy and convenient.</p>
-                <div className="lg:flex gap-5">
-                   <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md ">Book Now</button>
-                   <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md ">Membership</button>
+                <div className="flex flex-wrap gap-2 sm:gap-3">
+                     <Link to="/services">
+                        <button className="btn btn-active bg-slate-200 rounded-full sm:btn-sm md:btn-md">
+                          Book Now
+                        </button>
+                      </Link>
+
+                      <Link to="/singup">
+                        <button className="btn btn-outline text-white rounded-full sm:btn-sm md:btn-md">
+                          Membership
+                        </button>
+                      </Link>
                </div>
-            </div>                     
+            </div>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" className="btn btn-circle"><FaArrowLeft></FaArrowLeft></a>
